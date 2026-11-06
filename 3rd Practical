@@ -1,0 +1,59 @@
+
+interface Printable {
+    void print();
+}
+
+interface Scannable {
+    void scan();
+}
+
+class AllInOnePrinter implements Printable, Scannable {
+
+    public void print() {
+        System.out.println("Printing document...");
+    }
+
+    public void scan() {
+        System.out.println("Scanning document...");
+    }
+}
+
+class Machine {
+    void start() {
+        System.out.println("Machine is starting...");
+    }
+}
+
+class SmartPrinter extends Machine implements Printable, Scannable {
+
+    public void print() {
+        System.out.println("Smart printer is printing...");
+    }
+
+    public void scan() {
+        System.out.println("Smart printer is scanning...");
+    }
+
+    void connectToWifi() {
+        System.out.println("Smart printer connected to Wi-Fi.");
+    }
+}
+
+public class Practical3 {
+    public static void main(String[] args) {
+
+        // Multiple inheritance using interfaces
+        System.out.println("Multiple Inheritance:");
+        AllInOnePrinter printer = new AllInOnePrinter();
+        printer.print();
+        printer.scan();
+
+        // Hybrid inheritance
+        System.out.println("\nHybrid Inheritance:");
+        SmartPrinter smartPrinter = new SmartPrinter();
+        smartPrinter.start();
+        smartPrinter.print();
+        smartPrinter.scan();
+        smartPrinter.connectToWifi();
+    }
+}
