@@ -9,13 +9,13 @@ The repository includes practicals from 1st to 10th, each demonstrating a differ
 - 1st Practical - Student marks calculation and percentage display
 - 2nd Practical - Inheritance (single, multilevel, and hierarchical)
 - 3rd Practical - Interfaces and hybrid inheritance
-- 4th Practical - Java practical file (details not listed here in the repository view)
-- 5th Practical - Java practical file (details not listed here in the repository view)
-- 6th Practical - Java practical file (details not listed here in the repository view)
-- 7th Practical - Java practical file (details not listed here in the repository view)
-- 8th Practical - Java practical file (details not listed here in the repository view)
-- 9th Practical - Java practical file (details not listed here in the repository view)
-- 10th Practical - Bank account operations using encapsulation and validation
+- 4th Practical - Method Overloading and Method Overriding
+- 5th Practical - Simulating Operator Overloading Using Methods
+- 6th Practical - Default, Parameterized, and Copy Constructors
+- 7th Practical - 	Object Lifecycle and Garbage Collection
+- 8th Practical - Constructor Overloading
+- 9th Practical - this Keyword, Constructor Chaining, and Static Members
+- 10th Practical - Encapsulation Using Getters, Setters, and Validation
 
 ## Purpose
 
